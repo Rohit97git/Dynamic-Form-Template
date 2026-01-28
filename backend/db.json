@@ -1,0 +1,37 @@
+{
+  "fields": [
+    {
+      "type": "text",
+      "label": "Name",
+      "model": "name",
+      "required": true
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "model": "email",
+      "required": true
+    },
+    {
+      "type": "date",
+      "label": "Date of Visit",
+      "model": "dateOfVisit",
+      "required": true,
+      "constraints": {
+        "noFutureDate": true
+      }
+    },
+    {
+      "type": "select",
+      "label": "Type of Feedback",
+      "model": "feedbackType",
+      "options": ["Compliment", "Complaint", "Suggestion"],
+      "required": true
+    },
+    {
+      "type": "textarea",
+      "label": "Comments",
+      "model": "comments"
+    }
+  ]
+}
