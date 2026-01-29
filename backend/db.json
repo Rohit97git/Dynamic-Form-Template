@@ -25,13 +25,70 @@
       "type": "select",
       "label": "Type of Feedback",
       "model": "feedbackType",
-      "options": ["Compliment", "Complaint", "Suggestion"],
+      "options": [
+        "Compliment",
+        "Complaint",
+        "Suggestion"
+      ],
       "required": true
     },
     {
       "type": "textarea",
       "label": "Comments",
       "model": "comments"
+    },
+    {
+      "type": "checkbox",
+      "label": "I agree to the Terms & Conditions",
+      "model": "terms",
+      "required": true
+    }
+  ],
+  "feedback": [
+    {
+      "id": "99f8",
+      "name": "Rishab",
+      "email": "bcd@gmail.com",
+      "dateOfVisit": "2026-01-29",
+      "feedbackType": "Suggestion",
+      "comments": "Add Module12 in Angular Course!!",
+      "terms": true
+    },
+    {
+      "id": "1559",
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "dateOfVisit": "2026-01-29",
+      "feedbackType": "Compliment",
+      "comments": "Ah!! You add a checkbox for terms and conditions!! Nice try",
+      "terms": true
+    },
+    {
+      "id": "e1c2",
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "dateOfVisit": "2026-01-29",
+      "feedbackType": "Compliment",
+      "comments": "Nice Projects",
+      "terms": true
+    },
+    {
+      "id": "8775",
+      "name": "Amir",
+      "email": "amir@gmail.com",
+      "dateOfVisit": "2026-01-28",
+      "feedbackType": "Suggestion",
+      "comments": "Add a checkbox for terms and conditions",
+      "terms": true
+    },
+    {
+      "id": "c892",
+      "name": "Gohan",
+      "email": "gohan@gmail.com",
+      "dateOfVisit": "2026-01-29",
+      "feedbackType": "Suggestion",
+      "comments": "Add some more styling",
+      "terms": true
     }
   ]
 }
